@@ -42,6 +42,7 @@ body {
   color: #69B1E4;
   font-size: 20px;
 }
+/* header styles end */
 
 /* jumbotron styles start */
 .jumbotron {
@@ -56,20 +57,26 @@ body {
   font-size: 2em;
   margin-top: 36px;
 }
+/* jumbotron styles end */
 
 /* services style starts */
-
 .thumbnail {
   background-color: #EDF1F4;
 }
 
+.thumbnail-img {
+  padding: 5%;
+}
+
 .btn-primary {
   background-color: #60C0DC;
+  border: .75px;
 }
 
 .service-title {
   color: #70B5E6;
 }
+/* services styles end */
 
 /* footer styles start */
 footer {
