@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
+@media screen and (max-width: 768px) {
+  [body] {
+    width: 100%;
+  }
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -52,3 +58,42 @@ body {
 }
 
 /* services style starts */
+
+.thumbnail {
+  background-color: #EDF1F4;
+}
+
+.btn-primary {
+  background-color: #60C0DC;
+}
+
+.service-title {
+  color: #70B5E6;
+}
+
+/* footer styles start */
+footer {
+  background-color: #000;
+  padding: 1.5%;
+}
+
+.footer-top {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: #A9A9A9;
+}
+
+.logo-column {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  height: 92px;
+}
+
+.footer-bottom {
+  color: #696969;
+}
+/* footer styles end */
