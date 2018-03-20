@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
 /* header styles */
+.flex {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .brand {
   font-family: 'Satisfy', cursive;
@@ -30,6 +37,7 @@ body {
   color: #69B1E4;
   font-size: 20px;
 }
+/* header styles end */
 
 /* jumbotron styles start */
 .jumbotron {
@@ -43,4 +51,60 @@ body {
   color: #fff;
   font-size: 2em;
   margin-top: 36px;
+}
+/* jumbotron styles end */
+
+/* services style starts */
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 6px 12px;
+}
+
+.btn-primary {
+  background-color: #60C0DC;
+  border: .75px;
+}
+
+.service-title {
+  color: #70B5E6;
+}
+/* services styles end */
+
+/* footer styles start */
+footer {
+  padding-top: 45px;
+}
+
+footer, footer a, footer a:hover {
+  background-color: #231F20;
+  color: #B9BABB;
+  text-decoration: none;
+}
+
+/* footer logo styles start */
+footer .logo {
+  position: relative;
+  left: -55px; /*only available when position is static*/
+}
+/* footer logo styles end */
+
+.middle {
+  border-left: 1px solid #313030;
+  border-right: 1px solid #313030;
+}
+
+/* social media styles start */
+
+/*  social media styles end */
+
+.footer-bottom {
+  color: #696969;
+}
+/* footer styles end */
+
+/* media queries */
+@media screen and (max-width: 992px) {
+  footer .logo {
+    position: static;
+  }
 }
