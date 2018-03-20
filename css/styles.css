@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
-@media screen and (max-width: 768px) {
-  [body] {
-    width: 100%;
-  }
-}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -98,6 +93,14 @@ footer {
 
 .footer-logo {
   height: 92px;
+}
+
+.footer-info {
+  border-left: 1px solid #696969;
+}
+
+.footer-social {
+  border-left: 1px solid #696969;
 }
 
 .footer-bottom {
