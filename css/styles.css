@@ -72,11 +72,13 @@ body {
 
 /* footer styles start */
 footer {
-  background-color: #231F20;
+  padding-top: 45px;
 }
 
-.footer-top {
-  color: #A9A9A9;
+footer, footer a, footer a:hover {
+  background-color: #231F20;
+  color: #B9BABB;
+  text-decoration: none;
 }
 
 /* footer logo styles start */
@@ -86,14 +88,13 @@ footer .logo {
 }
 /* footer logo styles end */
 
-address {
-  
+.middle {
+  border-left: 1px solid #313030;
+  border-right: 1px solid #313030;
 }
 
 /* social media styles start */
-.footer-social {
-  border-left: 1px solid #696969;
-}
+
 /*  social media styles end */
 
 .footer-bottom {
